@@ -2,7 +2,7 @@
 
 This is a simple example of how you can use Forms and Functions in [Netlify](https://netlify.com) to submit data to your Sanity.io project.
 
-![Demonstration of Netlify form via Functions to Sanity Studio](https://cdn.sanity.io/images/3do82whm/production/374483baddffd6a3e96f4ab232dc985f99ab5bac-1642x1056.gif)
+![Demonstration of Netlify form via Functions to Sanity Studio](https://cdn.sanity.io/images/3do82whm/production/1728e9c2e1a25edbbb914e53edff8ded40ed2567-1642x1056.gif)
 
 ## How to use
 
