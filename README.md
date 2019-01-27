@@ -1,4 +1,4 @@
-# How to use Netlify Form and Functions to submit data to Sanity.io
+# How to use Netlify Form and Functions to submist data to Sanity.io
 
 This is a simple example of how you can use Forms and Functions in [Netlify](https://netlify.com) to submit data to your Sanity.io project.
 
