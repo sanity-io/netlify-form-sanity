@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@sanity/client": "^0.140.0",
     "netlify-cli": "^2.6.4"
   },
   "devDependencies": {
@@ -11,6 +12,7 @@
   },
   "scripts": {
     "start": "netlify-lambda serve src",
+    "build": "cp index.html build/index.html && netlify-lambda build src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
