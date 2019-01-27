@@ -1,0 +1,19 @@
+{
+  "name": "netlify-form-sanity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "netlify-cli": "^2.6.4"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^1.3.0"
+  },
+  "scripts": {
+    "start": "netlify-lambda serve src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
