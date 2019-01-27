@@ -8,42 +8,46 @@
   <title>How to use Netlify Form and Functions to submist data to Sanity.io</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
 </head>
+
 <body>
-  <div class="container">
-    <div class="columns is-vcentered">
-      <div class="column is-half is-offset-one-quarter">
-        <h1 class="is-size-2">How to use Netlify Form and Functions to submist data to <a href="https://www.sanity.io">Sanity.io</a></h1>
-        <form class="container" name="contact" method="POST" data-netlify="true">
-          <div class="field">
-            <label class="label">Your Name:
-              <input class="input" type="text" name="name" />
-            </label>
-          </div>
-          <div class="field">
-            <label class="label">Your Email:
-              <input class="input" type="email" name="email" />
-            </label>
-          </div>
-          <div class="field">
-            <label for="role[]" class="label">Your Role:</label>
-            <div class="select is-multiple">
-              <select name="role[]" multiple size="2">
-                <option value="leader">Leader</option>
-                <option value="follower">Follower</option>
-              </select>
+  <section class="section level">
+    <div class="container">
+      <div class="columns is-vcentered is-centered">
+        <div class="column is-half">
+          <h1 class="is-size-2">How to use Netlify Form and Functions to submist data to <a href="https://www.sanity.io">Sanity.io</a></h1>
+          <form name="contact" method="POST" data-netlify="true">
+            <div class="field">
+              <label class="label">Your Name:
+                <input class="input" type="text" name="name" />
+              </label>
             </div>
-          </div>
-          <div class="field">
-            <label class="label">Message:
-              <textarea class="textarea" name="message"></textarea>
-            </label>
-          </div>
-          <div class="field">
-            <button class="button" type="submit">Send</button>
-          </div>
-        </form>
+            <div class="field">
+              <label class="label">Your Email:
+                <input class="input" type="email" name="email" />
+              </label>
+            </div>
+            <div class="field">
+              <label for="role[]" class="label">Your Role:</label>
+              <div class="select is-multiple">
+                <select name="role[]" multiple size="2">
+                  <option value="leader">Leader</option>
+                  <option value="follower">Follower</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Message:
+                <textarea class="textarea" name="message"></textarea>
+              </label>
+            </div>
+            <div class="field">
+              <button class="button is-primary is-medium" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 </body>
+
 </html>
