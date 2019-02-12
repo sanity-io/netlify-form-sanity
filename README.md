@@ -19,7 +19,7 @@ This is a simple example of how you can use Forms and Functions in [Netlify](htt
 ```js
 /*
  * Doesn't cover all the data fields.
- * Remove or sest readOnly to `false` if you want to be able
+ * Remove or set readOnly to `false` if you want to be able
  * to edit the responses in the Studio
  */
 
