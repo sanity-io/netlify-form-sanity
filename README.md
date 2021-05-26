@@ -13,7 +13,7 @@ This is a simple example of how you can use Forms and Functions in [Netlify](htt
 5. Connect Netlify to that repo, and add a environment variable in Netlify called `SANITY_TOKEN`
 6. Go to your Settings -> API in your project at [manage.sanity.io](https://manage.sanity.io), and add a token with `write` rights.
 7. Paste this token as the value for `SANITY_TOKEN` (be careful with where you store this token!)
-8. Submissions will be stored as the `_type: "submission.form"`, and will not be available through the public API without a token with `read` rights.
+8. Submissions will be stored with `_id` on [a path](https://www.sanity.io/docs/ids): "submission.<uuid>"`, and will not be available through the public API without a token with `read` rights.
 9. If you want to view the submissions in the Studio, you can add the following schema to your project:
 
 ```js
