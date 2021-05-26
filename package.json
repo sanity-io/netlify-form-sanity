@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@sanity/client": "^0.140.0"
+    "@sanity/client": "^0.140.0",
+    "@sanity/uuid": "^3.0.1"
   },
   "devDependencies": {
     "netlify-cli": "^2.6.4",
